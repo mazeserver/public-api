@@ -1,0 +1,38 @@
+{
+	"staff": [
+		{
+			"id": "vinicenter",
+			"nickname": "vinicenter",
+			"headUrl": "/staff/vinicenter.png",
+			"role": "dono",
+			"description": "É o dono do servidor, muito pica esse cara.",
+			"socials": [
+				{
+					"name": "Instagram",
+					"url": "https://instagram.com/vinicenter"
+				},
+				{
+					"name": "Facebook",
+					"url": "https://facebook.com/vinicenter"
+				}
+			]
+		},
+		{
+			"id": "slashtmp",
+			"nickname": "slashtmp",
+			"headUrl": "/staff/vinicenter.png",
+			"role": "dono",
+			"description": "É o dono do servidor, muito pica esse cara.",
+			"socials": [
+				{
+					"name": "Instagram",
+					"url": "https://instagram.com/slashtmp"
+				},
+				{
+					"name": "Facebook",
+					"url": "https://facebook.com/slashtmp"
+				}
+			]
+		}
+	]
+}

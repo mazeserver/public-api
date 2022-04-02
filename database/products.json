@@ -1,0 +1,285 @@
+{
+	"products": [
+		{
+			"id": "vip",
+			"name": "VIP",
+			"benefitArray": [
+				"Vantagens",
+				"Acesso a loja VIP.",
+				"Acesso a mina VIP.",
+				"Acesso ao kit VIP Diário.",
+				"Acesso ao kit VIP Semanal.",
+				"Acesso ao kit VIP Mensal",
+				"Pode criar até 4 plots.",
+				"Acesso ao comando /anunciar.",
+				"Ganha tag em seu nome no chat.",
+				"Apoia o servidor em geral."
+			],
+			"shortDesc": "Uma pequena descrição para o VIP",
+			"longDesc": "",
+			"img": "/emblems/vips/vip.png",
+			"variantArray": [
+				{
+					"id": "VIPdiario",
+					"name": "VIP 1 dia",
+					"shortDesc": "",
+					"price": 0.99,
+					"benefitArray": [],
+					"commands": [
+						"lp user $user permission settemp group.VIP true 1d",
+						"broadcast O Jogador $user Comprou o VIP por 1 dia."
+					]
+				},
+				{
+					"id": "VIPsemanal",
+					"name": "VIP 7 dia",
+					"shortDesc": "",
+					"price": 5.99,
+					"benefitArray": [],
+					"commands": [
+						"lp user $user permission settemp group.VIP true 7d",
+						"broadcast O Jogador $user Comprou o VIP por 7 dias."
+					]
+				},
+				{
+					"id": "VIPmensal",
+					"name": "VIP 30 dias",
+					"shortDesc": "",
+					"price": 10.99,
+					"benefitArray": [],
+					"commands": [
+						"lp user $user permission settemp group.VIP true 30d",
+						"broadcast O Jogador $user Comprou o VIP por 30 dias."
+					]
+				}
+			]
+		},
+		{
+			"id": "vip+",
+			"name": "VIP+",
+			"benefitArray": [
+				"Vantagens",
+				"Acesso a loja VIP.",
+				"Acesso a mina VIP.",
+				"Acesso ao kit VIP Diário.",
+				"Acesso ao kit VIP Semanal.",
+				"Acesso ao kit VIP Mensal",
+				"Pode criar até 4 plots.",
+				"Acesso ao comando /anunciar.",
+				"Ganha tag em seu nome no chat.",
+				"Apoia o servidor em geral."
+			],
+			"shortDesc": "Uma pequena descrição para o VIP+",
+			"longDesc": "",
+			"img": "/emblems/vips/vip+.png",
+			"variantArray": [
+				{
+					"id": "VIP+diario",
+					"name": "VIP+ 1 dia",
+					"shortDesc": "",
+					"price": 5.99,
+					"benefitArray": [],
+					"commands": [
+						"lp user $user permission settemp group.VIP+ true 1d",
+						"broadcast O Jogador $user Comprou o VIP+ por 1 dias."
+					]
+				},
+				{
+					"id": "VIP+semanal",
+					"name": "VIP+ 7 dia",
+					"shortDesc": "",
+					"price": 10.99,
+					"benefitArray": [],
+					"commands": [
+						"lp user $user permission settemp group.VIP+ true 7d",
+						"broadcast O Jogador $user Comprou o VIP+ por 7 dias."
+					]
+				},
+				{
+					"id": "VIP+mensal",
+					"name": "VIP+ 30 dia",
+					"shortDesc": "",
+					"price": 15.99,
+					"benefitArray": [],
+					"commands": [
+						"lp user $user permission settemp group.VIP+ true 30d",
+						"broadcast O Jogador $user Comprou o VIP+ por 30 dias."
+					]
+				}
+			]
+		},
+		{
+			"id": "mvp",
+			"name": "MVP",
+			"benefitArray": [
+				"Vantagens",
+				"Acesso a loja VIP.",
+				"Acesso a mina VIP.",
+				"Acesso ao kit VIP Diário.",
+				"Acesso ao kit VIP Semanal.",
+				"Acesso ao kit VIP Mensal",
+				"Pode criar até 4 plots.",
+				"Acesso ao comando /anunciar.",
+				"Ganha tag em seu nome no chat.",
+				"Apoia o servidor em geral."
+			],
+			"shortDesc": "Uma pequena descrição para o MVP",
+			"longDesc": "",
+			"img": "/emblems/vips/mvp.png",
+			"variantArray": [
+				{
+					"id": "mvpdiario",
+					"name": "MVP 1 dia",
+					"shortDesc": "",
+					"price": 10.99,
+					"benefitArray": [],
+					"commands": [
+						"lp user $user permission settemp group.mvp true 1d",
+						"broadcast O Jogador $user Comprou o MVP por 1 dias."
+					]
+				},
+				{
+					"id": "mvpsemanal",
+					"name": "MVP 7 dia",
+					"shortDesc": "",
+					"price": 15.99,
+					"benefitArray": [],
+					"commands": [
+						"lp user $user permission settemp group.mvp true 7d",
+						"broadcast O Jogador $user Comprou o MVP por 7 dias."
+					]
+				},
+				{
+					"id": "mvpmensal",
+					"name": "MVP 30 dia",
+					"shortDesc": "",
+					"price": 20.99,
+					"benefitArray": [],
+					"commands": [
+						"lp user $user permission settemp group.mvp true 30d",
+						"broadcast O Jogador $user Comprou o MVP por 30 dias."
+					]
+				}
+			]
+		},
+		{
+			"id": "mvp+",
+			"name": "MVP+",
+			"benefitArray": [
+				"Vantagens",
+				"Acesso a loja VIP.",
+				"Acesso a mina VIP.",
+				"Acesso ao kit VIP Diário.",
+				"Acesso ao kit VIP Semanal.",
+				"Acesso ao kit VIP Mensal",
+				"Pode criar até 4 plots.",
+				"Acesso ao comando /anunciar.",
+				"Ganha tag em seu nome no chat.",
+				"Apoia o servidor em geral."
+			],
+			"shortDesc": "Uma pequena descrição para o MVP+",
+			"longDesc": "",
+			"img": "/emblems/vips/mvp+.png",
+			"variantArray": [
+				{
+					"id": "mvp+diario",
+					"name": "MVP+ 1 dia",
+					"shortDesc": "",
+					"price": 15.99,
+					"benefitArray": [],
+					"commands": [
+						"lp user $user permission settemp group.mvp+ true 1d",
+						"broadcast O Jogador $user Comprou o MVP+ por 1 dias."
+					]
+				},
+				{
+					"id": "mvp+semanal",
+					"name": "MVP+ 7 dia",
+					"shortDesc": "",
+					"price": 20.99,
+					"benefitArray": [],
+					"commands": [
+						"lp user $user permission settemp group.mvp+ true 7d",
+						"broadcast O Jogador $user Comprou o MVP+ por 7 dias."
+					]
+				},
+				{
+					"id": "mvp+mensal",
+					"name": "MVP+ 30 dia",
+					"shortDesc": "",
+					"price": 25.99,
+					"benefitArray": [],
+					"commands": [
+						"lp user $user permission settemp group.mvp+ true 30d",
+						"broadcast O Jogador $user Comprou o MVP+ por 30 dias."
+					]
+				}
+			]
+		},
+		{
+			"id": "mvp++",
+			"name": "MVP++",
+			"benefitArray": [
+				"Vantagens",
+				"Acesso a loja VIP.",
+				"Acesso a mina VIP.",
+				"Acesso ao kit VIP Diário.",
+				"Acesso ao kit VIP Semanal.",
+				"Acesso ao kit VIP Mensal",
+				"Pode criar até 4 plots.",
+				"Acesso ao comando /anunciar.",
+				"Ganha tag em seu nome no chat.",
+				"Apoia o servidor em geral."
+			],
+			"shortDesc": "Uma pequena descrição para o MVP++",
+			"longDesc": [
+				"Descrição",
+				"Acesso a loja VIP.",
+				"Acesso a mina VIP.",
+				"Acesso ao kit VIP Diário.",
+				"Acesso ao kit VIP Semanal.",
+				"Acesso ao kit VIP Mensal",
+				"Pode criar até 4 plots.",
+				"Acesso ao comando /anunciar.",
+				"Ganha tag em seu nome no chat.",
+				"Apoia o servidor em geral."
+			],
+			"img": "/emblems/vips/mvp++.png",
+			"variantArray": [
+				{
+					"id": "mvp++diario",
+					"name": "MVP++ 1 dia",
+					"shortDesc": "Esta é uma short Description para o produto MVP++ 1 dia",
+					"price": 20.99,
+					"benefitArray": [],
+					"commands": [
+						"lp user $user permission settemp group.mvp++ true 1d",
+						"broadcast O Jogador $user Comprou o MVP++ por 1 dias."
+					]
+				},
+				{
+					"id": "mvp++semanal",
+					"name": "MVP++ 7 dia",
+					"shortDesc": "Esta é uma short Description para o produto MVP++ 7 dia",
+					"price": 25.99,
+					"benefitArray": [],
+					"commands": [
+						"lp user $user permission settemp group.mvp++ true 7d",
+						"broadcast O Jogador $user Comprou o MVP++ por 7 dias."
+					]
+				},
+				{
+					"id": "mvp++mensal",
+					"name": "MVP++ 30 dia",
+					"shortDesc": "Esta é uma short Description para o produto MVP++ 30 dia",
+					"price": 30.99,
+					"benefitArray": [],
+					"commands": [
+						"lp user $user permission settemp group.mvp++ true 30d",
+						"broadcast O Jogador $user Comprou o MVP++ por 30 dias."
+					]
+				}
+			]
+		}
+	]
+}

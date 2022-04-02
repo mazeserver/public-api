@@ -1,0 +1,59 @@
+{
+	"page": {
+		"header": {
+			"home": "Início",
+			"about": "Sobre",
+			"requirements": "Requisitos",
+			"shop": "Loja",
+			"staff": "Staff"
+		},
+		"footer": {
+			"socials": [
+				{
+					"id": "github",
+					"name": "GitHub"
+				},
+				{
+					"id": "instagram",
+					"name": "Instagram"
+				},
+				{
+					"id": "tiktok",
+					"name": "TikTok"
+				},
+				{
+					"id": "twitter",
+					"name": "Twitter"
+				},
+				{
+					"id": "youtube",
+					"name": "Youtube"
+				}
+			],
+			"email": "contato@mazeserver.com"
+		}
+	},
+	"buttons": {
+		"close": "Fechar",
+		"more": "Saiba Mais"
+	},
+	"login": {
+		"login": "Entrar",
+		"nickname": "Nickname",
+		"welcome": "Olá $nickname!"
+	},
+	"shop": {
+		"buy": "Comprar",
+		"purchaseNote": "Verifique seu nickname antes de comprar!",
+		"checkoutResume": {
+			"item": "Item",
+			"subtotal": "Subtotal",
+			"total": "Total",
+			"text": "Você irá pagar um total de $price.\nVerifique seu nickname antes de completar a compra."
+		},
+		"purchaseInfo": {
+			"selectVariant": "Selecione uma variante:",
+			"typeYourNickName": "Informe seu nickname"
+		}
+	}
+}

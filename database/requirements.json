@@ -1,0 +1,56 @@
+{
+	"requirements": [
+		{
+			"id": "player",
+			"name": "Requisitos Player",
+			"imgUrl": "/roles/player.png",
+			"parent": "root",
+			"technical": [
+				"- Computador capaz de executar o Minecraft Java Edition",
+				"- Utilizar minecraft em modo online ou offline",
+				"- Utilizar minecraft versão 1.8.X a 1.18.X",
+				"- Conexão banda larga"
+			],
+			"law": [
+				"- Proibido anti jogo",
+				"- Proibido uso de hack",
+				"- Spam (ataque ao servidor) ou flood (repetição irritante)",
+				"- Sofisma (enganar pessoas propositalmente)",
+				"- Proibido abuso de palavras de baixo calão",
+				"- Proibido doxing (espalhar informações pessoais sem autorização)",
+				"- Proibido gore (conteúdo sangrento)",
+				"- Proibido pornografia e parafilia"
+			],
+			"tips": ""
+		},
+		{
+			"id": "vip",
+			"name": "Requisitos VIP",
+			"imgUrl": "/roles/vip.png",
+			"parent": "player",
+			"technical": [
+				"- Precisa cumprir com os requisitos de Player",
+				"- Alguns cosméticos precisam que você aumente a qualidade gráfica do jogo"
+			],
+			"law": [
+				"- Ter feito uma doação para o servidor com o valor para receber o benefício respectivo"
+			],
+			"tips": "Você pode consultar os VIPs disponíveis usando /comprarvip no servidor ou na Loja do site."
+		},
+		{
+			"id": "influencer",
+			"name": "Requisitos Influencer",
+			"imgUrl": "/roles/influencer.png",
+			"parent": "player",
+			"technical": [
+				"- Precisa cumprir com os requisitos de Player",
+				"- Alguns cosméticos precisam que você aumente a qualidade gráfica do jogo"
+			],
+			"law": [
+				"- Ter pelo menos 500 seguidores",
+				"- Ter ao menos um conteúdo sobre o servidor em suas redes sociais"
+			],
+			"tips": "Caso você cumpra com os requisitos, peça para a staff elevar seu cargo."
+		}
+	]
+}
